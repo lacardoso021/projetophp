@@ -10,6 +10,6 @@
 
     if($conexao->connect_error)
     {
-        die("Erro de conexão: ".$conexao->connect_error);
+        die("Erros de conexão: ".$conexao->connect_error);
     }
 ?>
